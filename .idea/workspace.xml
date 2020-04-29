@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5eca8243-8a46-47ca-8504-8103fdeb3e82" name="Default Changelist" comment="" />
+    <list default="true" id="5eca8243-8a46-47ca-8504-8103fdeb3e82" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/HumanPlayer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/HumanPlayer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ComputerPlayerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ComputerPlayerTest.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,6 +27,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1b8a6DmhBl5rWqBqFfkOMGx82NJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -36,7 +41,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
-  <component name="RunManager" selected="JUnit.ComputerPlayerTest.ComputerTest">
+  <component name="RunManager" selected="JUnit.GameTest.checkPlayGame">
     <configuration name="RpsMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="RpsMain" />
       <module name="RockPaperScissor" />
@@ -54,21 +59,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GameTest.checkGame" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GameTest.checkItems" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RockPaperScissor" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="GameTest" />
-      <option name="METHOD_NAME" value="checkGame" />
+      <option name="METHOD_NAME" value="checkItems" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GameTest.checkShape" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GameTest.checkPlayGame" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RockPaperScissor" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="GameTest" />
-      <option name="METHOD_NAME" value="checkShape" />
+      <option name="METHOD_NAME" value="checkPlayGame" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -86,11 +91,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ComputerPlayerTest.ComputerTest" />
-        <item itemvalue="JUnit.GameTest.checkGame" />
-        <item itemvalue="Application.RpsMain" />
-        <item itemvalue="JUnit.GameTest.checkShape" />
+        <item itemvalue="JUnit.GameTest.checkPlayGame" />
+        <item itemvalue="JUnit.GameTest.checkItems" />
         <item itemvalue="JUnit.GameTest.checkUser" />
+        <item itemvalue="JUnit.ComputerPlayerTest.ComputerTest" />
+        <item itemvalue="Application.RpsMain" />
       </list>
     </recent_temporary>
   </component>
@@ -132,22 +137,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="464" y="126" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1588016757413" />
-    <state width="1222" height="184" key="GridCell.Tab.0.bottom" timestamp="1588104062178">
+    <state width="1237" height="254" key="GridCell.Tab.0.bottom" timestamp="1588147445879">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1222" height="184" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1588104062178" />
-    <state width="1222" height="184" key="GridCell.Tab.0.center" timestamp="1588104062177">
+    <state width="1237" height="254" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1588147445879" />
+    <state width="1237" height="254" key="GridCell.Tab.0.center" timestamp="1588147445879">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1222" height="184" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1588104062177" />
-    <state width="1222" height="184" key="GridCell.Tab.0.left" timestamp="1588104062177">
+    <state width="1237" height="254" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1588147445879" />
+    <state width="1237" height="254" key="GridCell.Tab.0.left" timestamp="1588147445878">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1222" height="184" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1588104062177" />
-    <state width="1222" height="184" key="GridCell.Tab.0.right" timestamp="1588104062177">
+    <state width="1237" height="254" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1588147445878" />
+    <state width="1237" height="254" key="GridCell.Tab.0.right" timestamp="1588147445879">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1222" height="184" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1588104062177" />
+    <state width="1237" height="254" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1588147445879" />
     <state width="1222" height="139" key="GridCell.Tab.1.bottom" timestamp="1588103266110">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

@@ -20,9 +20,9 @@ public class Game {
             else {
                 j= false;
                 Items humanInput = Items.values()[b-1];
-                System.out.println( humanPlayer.getName() +" input  :"+ humanInput.toString());
+                System.out.println( humanPlayer.getName() +"  input  : "+ humanInput.toString());
                 Items computerInput = Items.values()[a];
-                System.out.println( computer.getName() +" input  :"+ computerInput.toString());
+                System.out.println( computer.getName() +"  input  : "+ computerInput.toString());
 
                 if (humanInput.defeats(computerInput)) {
                     System.out.println("you win");

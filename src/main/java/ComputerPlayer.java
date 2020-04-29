@@ -7,12 +7,10 @@ private final Random random;
         this.random = random;
     }
 
-    @Override
     public int getMove() {
         return random.nextInt(3);
     }
 
-    @Override
     public String getName() {
         return "Computer";
     }

@@ -10,8 +10,8 @@ public class RpsMain {
         //Instantiate game
         Game rpsGame=new Game();
         player.getDetails();
-        for(int i=1;i<=player.getCounterDetails();i++) {
-            System.out.println("Game: " + i);
+        for(int i=1;i<=player.getCounter();i++) {
+            System.out.println(" Game: " + i);
             rpsGame.playGame(player);
         }
     }

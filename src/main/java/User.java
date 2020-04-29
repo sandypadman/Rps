@@ -19,6 +19,14 @@ public class User {
         this.counter = scan.nextInt();
     }
 
+    public void getDetails()
+    {
+        promptForName("Please enter your name: ");
+        promptForCounter("How many games do you want to play: ");
+        System.out.println("\n Hello " + getName());
+        System.out.println(" We will play "+ getCounter()+ " games");
+    }
+
     public String getName () {
         return name;
     }
